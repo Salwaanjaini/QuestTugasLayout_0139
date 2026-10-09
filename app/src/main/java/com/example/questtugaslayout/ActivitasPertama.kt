@@ -143,6 +143,16 @@ fun CardMahasiswa(
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
 
+            Image(
+                painter = painterResource(
+                    R.drawable.logo_umy
+                ),
+
+                contentDescription = null,
+
+                modifier = Modifier.size(58.dp)
+            )
+
+
            
-    }
 }
