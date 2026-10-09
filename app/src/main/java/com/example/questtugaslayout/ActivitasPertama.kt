@@ -176,6 +176,37 @@ fun CardMahasiswa(
                     color = colorResource(warnaNama)
                 )
 
-               
+                if (nomor != null) {
+
+                    Text(
+                        text = stringResource(nomor),
+
+                        fontSize = 13.sp,
+
+                        color = colorResource(
+                            R.color.nomor_text
+                        )
+                    )
+                }
+
+
+                Text(
+                    text = stringResource(alamat),
+
+                    fontSize = 13.sp,
+
+                    color = colorResource(
+                        R.color.alamat_text
+                    )
+                )
+            }
+
+
+            Spacer(
+                modifier = Modifier.width(10.dp)
+            )
+
+
+
     }
 }
