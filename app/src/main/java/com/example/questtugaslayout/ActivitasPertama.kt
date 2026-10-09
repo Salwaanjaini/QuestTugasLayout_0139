@@ -154,5 +154,10 @@ fun CardMahasiswa(
             )
 
 
+            Spacer(
+                modifier = Modifier.width(10.dp)
+            )
+
+
+
            
-}
