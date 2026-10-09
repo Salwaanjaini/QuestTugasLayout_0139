@@ -109,5 +109,17 @@ fun ActivitasPertama(
     }
 }
 
+@Composable
+fun CardMahasiswa(
+    @StringRes nama: Int,
+    @StringRes nomor: Int?,
+    @StringRes alamat: Int,
+    @ColorRes warnaCard: Int,
+    @ColorRes warnaNama: Int,
+    modifier: Modifier = Modifier
+) {
+
+    
+        }
     }
 }
