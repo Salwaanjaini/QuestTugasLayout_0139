@@ -160,4 +160,22 @@ fun CardMahasiswa(
 
 
 
-           
+            Column(
+                modifier = Modifier.weight(1f)
+            ) {
+
+                Text(
+                    text = stringResource(nama),
+
+                    fontSize = 20.sp,
+
+                    fontWeight = FontWeight.Bold,
+
+                    fontFamily = FontFamily.Cursive,
+
+                    color = colorResource(warnaNama)
+                )
+
+               
+    }
+}
