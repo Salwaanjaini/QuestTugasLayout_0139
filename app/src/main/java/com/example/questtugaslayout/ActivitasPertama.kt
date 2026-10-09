@@ -61,6 +61,19 @@ fun ActivitasPertama(
 
 
 
-       
+        CardMahasiswa(
+            nama = R.string.nama_1,
+            nomor = null,
+            alamat = R.string.alamat_1,
+            warnaCard = R.color.card_1_bg,
+            warnaNama = R.color.card_1_text
+        )
+
+        Spacer(
+            modifier = Modifier.size(10.dp)
+        )
+
+
+     
     }
 }
