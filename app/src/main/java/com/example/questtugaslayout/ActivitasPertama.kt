@@ -99,6 +99,15 @@ fun ActivitasPertama(
             modifier = Modifier.size(10.dp)
         )
 
-      
+        CardMahasiswa(
+            nama = R.string.nama_4,
+            nomor = R.string.nomor_4,
+            alamat = R.string.alamat_4,
+            warnaCard = R.color.card_4_bg,
+            warnaNama = R.color.card_4_text
+        )
+    }
+}
+
     }
 }
