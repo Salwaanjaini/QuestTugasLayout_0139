@@ -119,7 +119,14 @@ fun CardMahasiswa(
     modifier: Modifier = Modifier
 ) {
 
-    
-        }
-    }
-}
+    Card(
+        modifier = modifier
+            .fillMaxWidth(),
+
+        shape = RoundedCornerShape(10.dp),
+
+        colors = CardDefaults.cardColors(
+            containerColor = colorResource(warnaCard)
+        )
+    ) {
+
